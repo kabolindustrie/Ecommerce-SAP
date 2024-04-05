@@ -1,13 +1,13 @@
 .offers{
     margin: 100px auto;
-    width: 65%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0px 8%;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #fde1ff 0%,#e1ffea22 60%);;
+    background:  linear-gradient(180deg, #73bbf5, #e1ffea22 60%);
 }
 
 .offers-left h1{
@@ -52,7 +52,7 @@
     .offers-left button{
         width: 200px;
         height: 50px;
-        
+
         font-size: 18px;
         margin-top: 25px;
     }
