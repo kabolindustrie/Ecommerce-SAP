@@ -79,6 +79,15 @@
     border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 10px;
+}
+.productdisplay-right button:hover{
+  background: #b20303
+}
+.productdisplay-right button:active{
+  background-color: var(--main-black);
+  color: var(--main-yellow);
+  transform: translate(0px, 2px);
 }
 .productdisplay-right-category{
     margin-top: 10px;
@@ -103,7 +112,7 @@
     .productdisplay-main-img{
         height: 400px;
     }
-    
+
 }
 @media(max-width:900px){
     .productdisplay{
@@ -121,7 +130,7 @@
     .productdisplay-main-img{
         height: 350px;
     }
-    
+
 }
 @media(max-width:800px){
     .productdisplay{
