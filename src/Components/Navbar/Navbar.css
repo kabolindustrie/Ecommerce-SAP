@@ -128,8 +128,10 @@
     order: 3;
   }
   .nav-menu-visible {
+    margin-top: 20px;
     display: flex;
     padding-top: 20px;
+    border: 1px solid var(--main-black);
   }
   .nav-dropdown.open {
     transform: rotate(-90deg);
@@ -151,6 +153,9 @@
   }
   .nav-logo p {
     font-size: 24px;
+  }
+  .nav-menu-visible{
+    margin-top: 20px;
   }
 }
 
