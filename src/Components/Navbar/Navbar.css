@@ -135,9 +135,11 @@
   }
   .nav-menu-visible {
     margin-top: 20px;
+    padding: 80px;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    align-items: start;
+    padding-top: 52 0 20px;
     border: 1px solid var(--main-black);
   }
   .nav-dropdown.open {
