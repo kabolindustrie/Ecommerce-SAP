@@ -124,12 +124,19 @@
   .nav-logo {
     order: 2;
   }
+  .nav-logo img {
+    display: none;
+  }
+  .nav-logo p {
+    font-size: 24px;
+  }
   .nav-login-cart {
     order: 3;
   }
   .nav-menu-visible {
     margin-top: 20px;
     display: flex;
+    flex-direction: column;
     padding-top: 20px;
     border: 1px solid var(--main-black);
   }
